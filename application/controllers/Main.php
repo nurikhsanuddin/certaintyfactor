@@ -9,6 +9,6 @@ class Main extends CI_Controller
         //   redirect('forbidden');
         // };
         // $data['title_simrs'] = "Berkas Medis";
-        redirect('admin/dashboard');
+        redirect('user/Main');
     }
 }
