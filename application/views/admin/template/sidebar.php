@@ -40,13 +40,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item ">
-                            <a href="<?= base_url(); ?>admin/dashboard/index?menu=dashboard" class="nav-link  <?= ($menu == 'dashboard') ? 'active' : '' ?>">
+                            <a href="<?= base_url(); ?>admin/Dashboard/index?menu=dashboard" class="nav-link  <?= ($menu == 'dashboard') ? 'active' : '' ?>">
                                 <i class="fa fa-home nav-icon"></i>
                                 <p>Dashboard </p>
                             </a>
                         </li>
                         <li class="nav-item  ">
-                            <a href="<?= base_url(); ?>admin/logbook/index?menu=logbook" class="nav-link <?= ($menu == 'logbook') ? 'active' : '' ?>">
+                            <a href="<?= base_url(); ?>admin/TambahGejala/index?menu=tambah-gejala" class="nav-link <?= ($menu == 'tambah-gejala') ? 'active' : '' ?>">
                                 <i class="fa fa-plus nav-icon"></i>
                                 <p>Tambah Kendala</p>
                             </a>
