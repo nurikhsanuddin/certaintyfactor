@@ -54,4 +54,9 @@ class Model_gejala extends CI_Model
 
         return $hasilCF;
     }
+
+    public function simpan_aturan($data)
+    {
+        return $this->db->insert_batch('aturan', $data);
+    }
 }

@@ -41,6 +41,8 @@
     <script src="<?= base_url('assets/plugins') ?>/datatables-buttons/js/buttons.html5.min.js"></script>
     <script src="<?= base_url('assets/plugins') ?>/datatables-buttons/js/buttons.print.min.js"></script>
     <script src="<?= base_url('assets/plugins') ?>/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css " rel="stylesheet">
 
     <script>
         $(document).ready(function() {

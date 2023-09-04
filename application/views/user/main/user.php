@@ -8,7 +8,7 @@
     </div>
     <div class="row mt-5">
 
-        <form method="post" class="form-control border-0" action="<?php base_url() ?>Main/proses">
+        <form method="post" class="form-control border-0" action="<?php base_url() ?>user/Main/proses">
             <div class="row">
                 <?php foreach ($get_gejala as $id => $nama_gejala) { ?>
                     <div class="col-12 col-md-4">

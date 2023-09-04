@@ -1,3 +1,9 @@
+<div class="flash-data-eror" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
+
+<?php
+$this->session->flashdata('flash');
+
+?>
 <div class="content-wrapper">
 
     <section class="content-header">
@@ -36,6 +42,7 @@
             <div class="row mt-4">
                 <div class="col col-md-12">
                     <input onclick="openModal('<?= base_url() ?>admin/TambahGejala/tambah_gejala')" type="submit" class="btn btn-success form-control" name="submit" value="Lanjut Penambahan">
+
                 </div>
             </div>
         </form>
