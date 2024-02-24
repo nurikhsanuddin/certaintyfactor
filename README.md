@@ -1,2 +1,2 @@
 # certaintyfactor
- Program Certainty factor skripsi service smartphone
+ Program Certainty factor service smartphone
